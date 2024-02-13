@@ -26,7 +26,7 @@
     "updated": "%TODAY%"
   },
   "dependencies": {
-    "grafanaDependency": ">=7.0.0",
+    "kengineDependency": ">=7.0.0",
     "plugins": []
   }
 }

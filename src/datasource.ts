@@ -1,5 +1,5 @@
-import { DataSourceInstanceSettings } from '@grafana/data';
-import { DataSourceWithBackend } from '@grafana/runtime';
+import { DataSourceInstanceSettings } from '@kengine/data';
+import { DataSourceWithBackend } from '@kengine/runtime';
 import { MyDataSourceOptions, MyQuery } from './types';
 
 export class DataSource extends DataSourceWithBackend<MyQuery, MyDataSourceOptions> {

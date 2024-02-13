@@ -20,7 +20,7 @@ This template is a starting point for building Kengine Data Source Backend Plugi
 
 Kengine supports a wide range of data sources, including Prometheus, MySQL, and even Datadog. There’s a good chance you can already visualize metrics from the systems you have set up. In some cases, though, you already have an in-house metrics solution that you’d like to add to your Kengine dashboards. Kengine Data Source Plugins enables integrating such solutions with Kengine.
 
-For more information about backend plugins, refer to the documentation on [Backend plugins](https://grafana.com/docs/grafana/latest/developers/plugins/backend/).
+For more information about backend plugins, refer to the documentation on [Backend plugins](https://kengine.com/docs/kengine/latest/developers/plugins/backend/).
 
 ## Getting started
 
@@ -54,7 +54,7 @@ A data source backend plugin consists of both frontend and backend components.
 
 ### Backend
 
-1. Update [Kengine plugin SDK for Go](https://grafana.com/docs/grafana/latest/developers/plugins/backend/grafana-plugin-sdk-for-go/) dependency to the latest minor version:
+1. Update [Kengine plugin SDK for Go](https://kengine.com/docs/kengine/latest/developers/plugins/backend/kengine-plugin-sdk-for-go/) dependency to the latest minor version:
 
    ```bash
    go get -u github.com/khulnasoft/kengine-plugin-sdk-go
@@ -75,8 +75,8 @@ A data source backend plugin consists of both frontend and backend components.
 
 ## Learn more
 
-- [Build a data source backend plugin tutorial](https://grafana.com/tutorials/build-a-data-source-backend-plugin)
-- [Kengine documentation](https://grafana.com/docs/)
-- [Kengine Tutorials](https://grafana.com/tutorials/) - Kengine Tutorials are step-by-step guides that help you make the most of Kengine
-- [Kengine UI Library](https://developers.grafana.com/ui) - UI components to help you build interfaces using Kengine Design System
-- [Kengine plugin SDK for Go](https://grafana.com/docs/grafana/latest/developers/plugins/backend/grafana-plugin-sdk-for-go/)
+- [Build a data source backend plugin tutorial](https://kengine.com/tutorials/build-a-data-source-backend-plugin)
+- [Kengine documentation](https://kengine.com/docs/)
+- [Kengine Tutorials](https://kengine.com/tutorials/) - Kengine Tutorials are step-by-step guides that help you make the most of Kengine
+- [Kengine UI Library](https://developers.kengine.com/ui) - UI components to help you build interfaces using Kengine Design System
+- [Kengine plugin SDK for Go](https://kengine.com/docs/kengine/latest/developers/plugins/backend/kengine-plugin-sdk-for-go/)
